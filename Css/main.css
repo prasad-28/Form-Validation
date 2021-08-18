@@ -3,6 +3,14 @@ margin: 0px;
 padding: 0px;
 font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
 }
+:root{
+  --bg_gray: #2A3F54;
+  --txt_clr: #E7E7E7;
+}
+
+
+
+
 .d-flex{
   display: flex;
 }
@@ -14,7 +22,8 @@ font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
 .admin-sidebar{
     width: 16%;
     color: #73879C;
-    background-color: #2A3F54;
+    /* background-color: #2A3F54; */
+    background-color: var(--bg_gray);
     min-height: 900px;
 }
 .logo-contain{
@@ -241,7 +250,7 @@ align-items: center;
   border: 2px solid gray;
   right: 69px;
 }
-.form-outer{
+.form-panel{
     height: 920px;
     display: flex;
     background-color: #F7F7F7;
@@ -252,4 +261,17 @@ align-items: center;
     margin: auto;
     height: 900px;
     margin: 0 20px;
+    padding: 10px 20px;
+}
+.inner-nav{
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #F7F7F7;
+}
+.f-right{
+  height: 40px;
+  background: ;
+  display: flex;
+  align-items: center;
+
 }
