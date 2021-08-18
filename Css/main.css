@@ -1,6 +1,7 @@
 *{
 margin: 0px;
 padding: 0px;
+color: #73879C;
 font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
 }
 :root{
@@ -262,16 +263,48 @@ align-items: center;
     height: 900px;
     margin: 0 20px;
     padding: 10px 20px;
+    border: 1px solid;
 }
 .inner-nav{
     align-items: center;
     justify-content: space-between;
-    border-bottom: 3px solid #F7F7F7;
+    border-bottom: 1px solid;
 }
-.f-right{
+.f-left{
   height: 40px;
   background: ;
   display: flex;
   align-items: center;
 
+}
+.f-right{
+  position: relative;
+}
+
+
+
+
+.settings-drop{
+    position: absolute;
+    top: 23px;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    background-color: white;
+    right: -40px;
+    height: 70px;
+    border: 1px solid;
+}
+
+.settings-drop{
+  display: none;
+}
+.settings-show{
+  display: flex;
+  /* flex-direction: column; */
+  z-index: 1;
+}
+.f-right a{
+  text-decoration: none;
+    padding: 5px;
 }

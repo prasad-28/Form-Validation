@@ -14,6 +14,11 @@ $(".drop-click").click(function(){
   $(".dropdown-items").toggleClass('show-dropdown')
 });
 
+$(".settings-click").click(function(){
+  // $(".settings-drop").hide();
+  $(".settings-drop").toggleClass(".settings-show")
+});
+
 
 
 
