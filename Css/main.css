@@ -279,12 +279,14 @@ align-items: center;
 }
 .f-right{
   position: relative;
+  display: inline-block;
 }
 
 
 
 
 .settings-drop{
+    display: none;
     position: absolute;
     top: 23px;
     display: flex;
@@ -305,6 +307,33 @@ align-items: center;
   z-index: 1;
 }
 .f-right a{
-  text-decoration: none;
+    text-decoration: none;
     padding: 5px;
+}
+.main-form-page{
+  width: 100%;
+}
+.main-form-page p{
+  padding: 18px 0px;
+}
+.main-form-page span{
+      font-size: 26px;
+      color: #333;
+      border-bottom: 1px solid #e5e5e5;
+      display: block;
+}
+.form-one{
+  width: 100%;
+    height: 50px;
+    margin: 10px auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.form-one-input{
+  padding: 8px 0;
+    width: 400px;
+    margin: 0 0 0 20px;
+    text-indent: 10px;
+    outline: none;
 }

@@ -15,8 +15,7 @@ $(".drop-click").click(function(){
 });
 
 $(".settings-click").click(function(){
-  // $(".settings-drop").hide();
-  $(".settings-drop").toggleClass(".settings-show")
+  $(".settings-drop").toggleClass("settings-show")
 });
 
 
