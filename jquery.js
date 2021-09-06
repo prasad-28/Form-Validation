@@ -18,6 +18,56 @@ $(".settings-click").click(function(){
   $(".settings-drop").toggleClass("settings-show")
 });
 
+$(".rotate-arrow").click(function(){
+  $(".main-form-page").slideToggle();
+  $(".rotate-arrow i").css('transform', 'rotate(180deg)')
+});
+
+$(".cross-icon").click(function(){
+  $(".form-inner").hide();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
