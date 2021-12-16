@@ -26,6 +26,9 @@ $(".rotate-arrow").click(function(){
 $(".cross-icon").click(function(){
   $(".form-inner").hide();
 });
+$(".manu-icon").click(function(){
+  $(".d-none").css('display', 'none');
+});
 
 
 

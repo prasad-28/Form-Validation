@@ -21,7 +21,7 @@ font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
   justify-content: center;
 }
 .admin-sidebar{
-    width: 16%;
+    width: 17%;
     color: #73879C;
     /* background-color: #2A3F54; */
     background-color: var(--bg_gray);
@@ -141,7 +141,7 @@ align-items: center;
   background-color: #172d44;
   position: fixed;
   bottom: 0;
-  width: 16%;
+  width: 17%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
